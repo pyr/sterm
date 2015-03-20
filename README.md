@@ -33,6 +33,8 @@ Features
 Example Configuration
 ---------------------
 
+Configuration goes in `$HOME/.config/sterm/sterm.conf`
+
 ```
 [main]
 WordChars=-A-Za-z0-9:./?%&#_=+@~" 
