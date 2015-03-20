@@ -1,7 +1,7 @@
 #                                               -*- Autoconf -*-
 AC_PREREQ([2.64])
 
-AC_INIT([vbeterm],
+AC_INIT([sterm],
         [m4_esyscmd_s([./get-version])],
         [bernat@luffy.cx])
 AC_CONFIG_SRCDIR([src/term.c])

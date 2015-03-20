@@ -1,6 +1,7 @@
 /* -*- mode: c; c-file-style: "openbsd" -*- */
 /*
  * Copyright (c) 2014 Vincent Bernat <bernat@luffy.cx>
+ * Copyright (c) 2015 Pierre-Yves Ritschard <pyr@spootnik.org>
  *
  * Permission to use, copy, modify, and/or distribute this software for any
  * purpose with or without fee is hereby granted, provided that the above
@@ -32,7 +33,7 @@
 #define TERM_THEMES_MAX 8
 #define TERM_THEME_PALETTE_MAX 16
 #define TERM_THEME_FONT_MAX 64
-#define TERM_CONFIG_PATH ".config/vbeterm/vbeterm.conf"
+#define TERM_CONFIG_PATH ".config/sterm/sterm.conf"
 #define TERM_CONFIG_DEFAULT ("[main]\n"                                 \
                              "WordChars=-A-Za-z0-9:./?%&#_=+@~\n"       \
                              "Themes=default\n"                         \
